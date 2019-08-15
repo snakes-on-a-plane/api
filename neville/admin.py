@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import CarryOn
+from .models import Neville
 
 # Register your models here.
-admin.site.register(CarryOn)
+admin.site.register(Neville)
