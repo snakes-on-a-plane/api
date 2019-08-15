@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'passengers.apps.PassengersConfig',
-    'neville.apps.NevilleConfig',
 ]
 
 MIDDLEWARE = [
