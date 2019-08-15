@@ -5,6 +5,5 @@ from passengers.models import Passenger
 class ThreeGs(Passenger):
     accessories = models.CharField(max_length=256)
 
-    def sanitizer_spray(snake):
-        snake.health -= 10
-        print("Ew gross!")
+    def descAccessories(self):
+        return f'I have: {self.accessories}'
