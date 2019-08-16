@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'passengers.apps.PassengersConfig',
-    'Troy.apps.TroyConfig',
+    'passengers',
+    'Troy',
 ]
 
 MIDDLEWARE = [

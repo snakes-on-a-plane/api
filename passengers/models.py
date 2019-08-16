@@ -2,7 +2,7 @@ from django.db import models
 
 class CarryOn(models.Model):
     name = models.CharField(max_length=256)
-    attack = models.IntegerField(default=100)
+    attack = models.IntegerField(default=100, null=True, blank=True)
     
     def __str__(self):
         return f'{self.name} - {self.attack}'
