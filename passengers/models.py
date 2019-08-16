@@ -5,7 +5,7 @@ class CarryOn(models.Model):
     attack = models.IntegerField(default=100)
     
     def __str__(self):
-        return f'{self.name} - {self.attack}'
+        return self.name
         
 class Passenger(models.Model):
     name = models.CharField(max_length=256)
